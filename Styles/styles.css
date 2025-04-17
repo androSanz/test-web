@@ -93,12 +93,13 @@ legend {
 }
 
 .sub_input {
-  text-transform: uppercase;
   width: 20%;
   height: 30px;
 
+  text-transform: uppercase;
   text-align: center;
   font-weight: 700;
+  font-size: 0.6rem;
 
   margin-left: 80%;
   margin-top: 15px;
