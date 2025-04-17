@@ -11,9 +11,14 @@ body {
   margin-top: 40px;
 
   padding: 10px;
+<<<<<<< HEAD
 
   width: 65vw;
   height: 70vh;
+=======
+  width: 80vw;
+  height: 60vh;
+>>>>>>> cf06201081d97ecb130d212bab84537b02015b1f
 
   min-width: 65vw;
   font-size: 0.7em;
