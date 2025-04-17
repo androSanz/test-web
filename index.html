@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Styles/styles.css" />
+    <title>TwoChoices</title>
+  </head>
+  <body>
+    <h1 class="title">Convocatoria para desarrolladores</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem maiores et consequuntur laborum minus enim aliquid eos sint repudiandae maxime? Dolorem aspernatur velit voluptatibus, aut commodi porro ea quo deserunt.</p>
+    <form class="form">
+      <h2>Formulario de desarrolladores</h2>
+
+      <div class="inputs_form">
+        <label
+          >Nombre
+          <input inputs_formtype="text" placeholder="Andro Sanz" required/>
+        </label>
+      </div>
+
+      <div class="inputs_form">
+        <label>
+          E-mail
+          <input type="email" placeholder="ejemplo@gmail.com" required/>
+        </label>
+      </div>
+
+      <div class="inputs_form">
+        <label>
+          Framework
+          <input list="framework" required/>
+          <datalist id="framework" name="type-of-development">
+            <option value="Unity"></option>
+            <option value="React"></option>
+            <option value="Vue"></option>
+          </datalist>
+        </label>
+      </div>
+
+      <div class="inputs_form">
+        <label>
+          Sexo
+          <select name="genero" id="gener_select">
+            <option value="op1">Masculino</option>
+            <option value="op2">Femenino</option>
+            <option value="op3">Prefiero no decir</option>
+          </select>
+        </label>
+      </div>
+
+      <div>
+        <input class="sub_input" type="submit" value="Aceptar" />
+      </div>
+    </form>
+  </body>
+</html>
