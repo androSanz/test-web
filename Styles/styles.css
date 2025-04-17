@@ -1,5 +1,6 @@
 body {
-  background-color: #222f;
+  background-color: #222121;
+
   font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(146, 82, 137);
@@ -8,39 +9,36 @@ body {
 
 .form {
   margin: auto;
-  margin-top: 40px;
-
-  padding: 10px;
+  margin-top: 30px;
+  padding: 15px;
 
   width: 75vw;
-  height: 60vh;
-
+  height: 480px;
   min-width: 65vw;
-  min-height: 75vh;
   font-size: 0.7em;
 
-  background-color: #1f1e1e;
+  background-color: rgb(41, 41, 41);
   box-shadow: 0 0 25px 3px rgba(52, 9, 36, 0.201);
 
-  
-  flex-direction: column;
-  font-size: 14px;
   border-radius: 6px;
   box-sizing: border-box;
 }
 
 .inputs_form {
-  padding: 10px;
-  margin: 10px;
+  margin-top: 10px;
+  font-size: 0.7rem;
+  padding: 0 10px;
 }
+
 h2 {
   margin-left: 10px;
   width: 100%;
   text-transform: uppercase;
   text-align: jus;
-  font-weight: 200;
-  font-size: 1.2em;
+  font-weight: 900;
+  font-size: 1rem;
 }
+
 label {
   line-height: 4px;
   font-size: 1em;
@@ -50,29 +48,65 @@ input,
 select {
   width: 100%;
   box-sizing: border-box;
-  margin-top: 3px;
-  padding: 6px;
+  background-color: rgb(41, 41, 41, 0);
 
-  background-color: #0000;
   border: none;
   border-bottom: 1px solid #666;
   border-left: 3px solid #666;
 
   color: rgb(176, 89, 164);
-}
 
+  font-size: 0.7rem;
+}
 select {
   border-radius: 4px;
   border: 2px solid #666;
-  background-color: #1f1e1e;
+  background-color: rgb(41, 41, 41);
+}
+
+.bas-info_fieldset {
+    margin-top: 20px;
+
+  box-sizing: border-box;
+  width: 100%;
+  height: 200px;
+  font-size: 0.8rem;
+  padding: 10px;
+
+  background-color: rgba(34, 34, 34, 0.589);
+
+  border: 1px solid #aaa5;
+}
+.cont-info_fieldset {
+  margin-top: 20px;
+  box-sizing: border-box;
+  width: 100%;
+  font-size: 0.8rem;
+  padding: 10px;
+  background-color: rgba(34, 34, 34, 0.589);
+  border: 1px solid #aaa5;
+}
+
+legend {
+  font-size: 0.9rem;
+  padding: 0 6px;
 }
 
 .sub_input {
-  width: 40%;
-
-  margin-left: 60%;
-  margin-top: 10px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  width: 70px;
+  height: 30px;
+  margin-left: 80%;
   margin-bottom: 10px;
-  border: 2px solid #666;
+  border: 2px solid #7e4b75;
   border-radius: 4px;
+}
+.nac_info {
+  width: 55px;
+}
+
+.fecha {
+  margin: 10px 0;
+  padding: 0 10px;
 }

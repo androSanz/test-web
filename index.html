@@ -8,47 +8,93 @@
   </head>
   <body>
     <h1 class="title">Convocatoria para desarrolladores</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem maiores et consequuntur laborum minus enim aliquid eos sint repudiandae maxime? Dolorem aspernatur velit voluptatibus, aut commodi porro ea quo deserunt.</p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+      maiores et consequuntur laborum minus enim aliquid eos sint repudiandae
+      maxime? Dolorem aspernatur velit voluptatibus, aut commodi porro ea quo
+      deserunt.
+    </p>
     <form class="form">
-      <h2>Formulario de desarrolladores</h2>
+      <!--Subtitulo-->
+      <h2>Formulario para solicitud de empleo</h2>
+      <!--Fieldset Info basica-->
+      <fieldset class="bas-info_fieldset">
+        <legend>Informacion Basica</legend>
 
-      <div class="inputs_form">
-        <label
-          >Nombre
-          <input inputs_formtype="text" placeholder="Andro Sanz" required/>
-        </label>
-      </div>
+        <div class="inputs_form">
+          <label>
+            Nombre
+            <input type="text" placeholder="Nombre" />
+          </label>
+        </div>
 
-      <div class="inputs_form">
-        <label>
-          E-mail
-          <input type="email" placeholder="ejemplo@gmail.com" required/>
-        </label>
-      </div>
+        <div class="inputs_form">
+          <label>
+            Apellido
+            <input type="text" placeholder="Apellido" />
+          </label>
+        </div>
 
-      <div class="inputs_form">
-        <label>
-          Framework
-          <input list="framework" required/>
-          <datalist id="framework" name="type-of-development">
-            <option value="Unity"></option>
-            <option value="React"></option>
-            <option value="Vue"></option>
-          </datalist>
-        </label>
-      </div>
+        <div class="inputs_form">
+          <label>
+            Usuario
+            <input type="text" placeholder="Usuario" />
+          </label>
+        </div>
+        <div class="fecha">
+          <label
+            >Fecha de nacimiento
+            <div>
+              <input
+                class="nac_info"
+                type="number"
+                placeholder="Dia"
+                max="31"
+                min="1"
+                required />
+              <select class="nac_info" ="Mes" id="_mes">
+                <option value="op1">Ene</option>
+                <option value="op2">Feb</option>
+                <option value="op3">Mar</option>
+                <option value="op4">Abr</option>
+                <option value="op5">May</option>
+                <option value="op6">Jun</option>
+                <option value="op7">Jul</option>
+                <option value="op8">Ago</option>
+                <option value="op9">Sep</option>
+                <option value="op10">Oct</option>
+                <option value="op11">Nov</option>
+                <option value="op12">Dic</option>
+              </select>
+              <input
+                class="nac_info"
+                type="number"
+                placeholder="Año"
+                max="2020"
+                min="1925"
+                required />
+            </div>
+          </label>
+        </div>
+      </fieldset>
 
-      <div class="inputs_form">
-        <label>
-          Sexo
-          <select name="genero" id="gener_select">
-            <option value="op1">Masculino</option>
-            <option value="op2">Femenino</option>
-            <option value="op3">Prefiero no decir</option>
-          </select>
-        </label>
-      </div>
+      <!--Fieldset Info contacto-->
 
+      <fieldset class="cont-info_fieldset">
+        <legend>Informacion de Contacto</legend>
+        <div class="inputs_form">
+          <label
+            >Telefono
+            <input type="" placeholder="Telefono" minlength="6" required />
+          </label>
+        </div>
+        <div class="inputs_form">
+          <label
+            >E-mail
+            <input type="" placeholder="E-mail" required />
+          </label>
+        </div>
+      </fieldset>
       <div>
         <input class="sub_input" type="submit" value="Aceptar" />
       </div>

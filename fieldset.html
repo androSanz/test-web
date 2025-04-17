@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fieldset adn Legend</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Informacion Basica</legend>
+        <input type="text" placeholder="Nombre" />
+        <input type="text" placeholder="Apellido" />
+        <input type="text" placeholder="Nombre de Usuario" />
+        <div>
+          <label
+            >Fecha de nacimiento
+            <input type="number" placeholder="Dia" max="31" min="1" required/>
+            <select name="Mes" id="_mes">
+                <Option value="op1">Ene</Option>
+                <Option value="op2">Feb</Option>
+                <Option value="op3">Mar</Option>
+                <Option value="op4">Abr</Option>
+                <Option value="op5">May</Option>
+                <Option value="op6">Jun</Option>
+                <Option value="op7">Jul</Option>
+                <Option value="op8">Ago</Option>
+                <Option value="op9">Sep</Option>
+                <Option value="op10">Oct</Option>
+                <Option value="op11">Nov</Option>
+                <Option value="op12">Dic</Option>
+            </select>
+            <input type="number" placeholder="Año" max="2020" min="1925" required>
+          </label>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Informacion de Contacto</legend>
+        <input type="" placeholder="Telefono" minlength="6" />
+        <input type="email" placeholder="email" />
+      </fieldset>
+
+      <input type="submit">
+
+    </form>
+  </body>
+</html>
